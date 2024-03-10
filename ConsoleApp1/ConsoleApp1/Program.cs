@@ -12,9 +12,11 @@ Console.WriteLine(getMax([1, 2, 3, 4, 5]));
 static double avg(int[] tab)
 {
     double sum = 0;
+
     for (int a = 0; a < tab.Length; a++)
     {
         sum += tab[a];
+
     }
 
     return sum / tab.Length;
